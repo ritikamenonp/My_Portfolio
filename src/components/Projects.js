@@ -97,8 +97,7 @@ const Projects = () => {
                   rel="noopener noreferrer" 
                   className="project-link btn-hover"
                 >
-                  <FaExternalLinkAlt className="link-icon" />
-                  Live Demo
+                
                 </a>
               </div>
             </div>
