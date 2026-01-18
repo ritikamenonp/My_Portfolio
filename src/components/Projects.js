@@ -17,12 +17,12 @@ const Projects = () => {
       ],
       category: "Full Stack Development",
       icon: <FaCode />,
-      github: "https://github.com/ritikamenonp/ai-resume-builder",
-      live: "https://ai-resume-builder-demo.com"
+      github: "https://github.com/ritikamenonp/Resume_Builder",
+      
     },
     {
       id: 2,
-      title: "Oral Cancer Prediction System",
+      title: "Oral Lip and Tongue Cancer Prediction",
       description: "A CNN-based medical diagnosis system for early detection of oral, lip, and tongue cancer from lesion images.",
       technologies: ["Python", "TensorFlow", "CNN", "Data Mining"],
       features: [
@@ -34,8 +34,8 @@ const Projects = () => {
       ],
       category: "Machine Learning & Healthcare",
       icon: <FaMedkit />,
-      github: "https://github.com/ritikamenonp/oral-cancer-detection",
-      live: "https://oral-cancer-demo.com"
+      github: "https://github.com/ritikamenonp/Oral_Lip_And_Tongue_Cancer_Prediction",
+      
     }
   ];
 
