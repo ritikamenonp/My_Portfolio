@@ -91,14 +91,7 @@ const Projects = () => {
                   <FaGithub className="link-icon" />
                   GitHub
                 </a>
-                <a 
-                  href={project.live} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="project-link btn-hover"
-                >
                 
-                </a>
               </div>
             </div>
           ))}
