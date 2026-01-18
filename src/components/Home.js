@@ -49,7 +49,7 @@ const Home = () => {
               </a>
 
               <a 
-                href="/Ritika_Menon_Resume.pdf" 
+                href={`${process.env.PUBLIC_URL}/Ritika_Menon_Resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="home-action-item"
@@ -61,7 +61,7 @@ const Home = () => {
               </a>
 
               <a 
-                href="/Ritika_Menon_Resume.pdf" 
+                href={`${process.env.PUBLIC_URL}/Ritika_Menon_Resume.pdf`}
                 download="Ritika_Menon_Resume.pdf"
                 className="home-action-item"
               >
