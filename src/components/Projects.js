@@ -1,11 +1,28 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt, FaCode, FaMedkit, FaRocket } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaCode, FaMedkit, FaRocket, FaChartLine } from 'react-icons/fa';
 import './Projects.css';
 
 const Projects = () => {
-  const projects = [
+  const projects = [ 
     {
       id: 1,
+      title: "Supplier Risk Prediction & Demand Forecasting ",
+      description: "An end-to-end analytics project focused on supplier performance monitoring and short-term demand forecasting using structured data pipelines and machine learning models.",
+      technologies: ["Python", "pandas", "Prophet", "scikit-learn", "Streamlit"],
+      features: [
+        "End-to-end Python pipeline for supplier and demand data processing",
+        "Rolling 3-month SOTD and DPPM feature engineering for performance tracking",
+        "3-month demand forecasting using Prophet (MAPE ≈ 4.7%)",
+        "Supplier risk probability prediction using Logistic Regression (≈97% accuracy)",
+        "Interactive Streamlit dashboard with filtering, visualization, and export functionality"
+      ],
+      category: "Data Analytics & Machine Learning",
+      icon: <FaChartLine />,
+      github: "https://github.com/ritikamenonp/Supplier_Risk_Prediction",
+      
+    },
+    {
+      id: 2,
       title: "AI Powered Resume Builder",
       description: "An intelligent resume builder that uses advanced NLP models to auto-generate professional resumes from user inputs.",
       technologies: ["Node.js", "Express", "React.js", "Multer", "Hugging Face"],
@@ -21,7 +38,7 @@ const Projects = () => {
       
     },
     {
-      id: 2,
+      id: 3,
       title: "Oral Lip and Tongue Cancer Prediction",
       description: "A CNN-based medical diagnosis system for early detection of oral, lip, and tongue cancer from lesion images.",
       technologies: ["Python", "TensorFlow", "CNN", "Data Mining"],

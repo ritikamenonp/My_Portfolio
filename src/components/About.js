@@ -61,14 +61,14 @@ const About = () => {
       role: "Data/Business Analyst Intern",
       period: "Dec 2024 – Present",
       tasks: [
-        "Building interactive Power BI dashboards for Supplier On-Time Delivery (SOTD) and global sourcing insights using Power BI, Power Query, and DAX.",
-        "Automating shipping order generation on PO release using Excel VBA, reducing manual effort and improving efficiency."
+        "Developed interactive Power BI dashboards to track First Article Inspection (FAI) status, Supplier On-Time Delivery (SOTD), and DPPM metrics, using Power Query and DAX for data transformation and rolling 3-month trend analysis to support supplier performance monitoring.",
+        "Automated shipping order template generation at PO release using Excel VBA and collaborated with sourcing teams to translate reporting requirements into structured KPI dashboards, improving visibility and operational efficiency."
       ]
     },
     {
       company: "VConnect Media",
       location: "Coimbatore, India",
-      role: "Photoshop Intern",
+      role: "Media & Design Intern",
       period: "Jul 2023 – Oct 2023",
       tasks: [
         "Created engaging visual designs and video content using Adobe Photoshop and Premiere Pro.",
