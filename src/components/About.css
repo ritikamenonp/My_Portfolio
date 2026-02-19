@@ -324,7 +324,22 @@
   margin-bottom: 0;
 }
 
-/* Mobile responsiveness */
+/* Tablet responsiveness (768px - 1024px) */
+@media (max-width: 1024px) {
+  .about-main-grid {
+    gap: 30px;
+  }
+  
+  .experience-card {
+    padding: 24px;
+  }
+  
+  .achievement-card {
+    padding: 18px;
+  }
+}
+
+/* Mobile responsiveness (below 992px) */
 @media (max-width: 992px) {
   .about-main-grid {
     grid-template-columns: 1fr;
@@ -334,11 +349,17 @@
   .about-right-column {
     order: -1;
   }
+  
+  .experience-grid {
+    gap: 20px;
+  }
 }
 
+/* Mobile responsiveness (below 768px) */
 @media (max-width: 768px) {
   .about-intro {
     font-size: 1rem;
+    line-height: 1.7;
   }
   
   .sub-section-title {
@@ -347,27 +368,41 @@
   
   .experience-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   
   .experience-header {
     flex-direction: column;
+    gap: 4px;
+  }
+  
+  .experience-card {
+    padding: 20px;
+  }
+  
+  .experience-header h4 {
+    font-size: 1.1rem;
   }
   
   .tech-stack-section {
     padding: 20px 16px;
   }
   
+  .tech-category {
+    margin-bottom: 12px;
+  }
+  
   .skill-card {
-    padding: 10px 14px;
-    min-width: 70px;
+    padding: 8px 10px;
+    min-width: 60px;
   }
   
   .skill-icon {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   
   .skill-name {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
   
   .achievement-card {
@@ -378,5 +413,56 @@
     width: 44px;
     height: 44px;
     font-size: 1.2rem;
+  }
+  
+  .achievement-content h4 {
+    font-size: 0.95rem;
+  }
+  
+  .achievement-content p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra small devices (below 480px) */
+@media (max-width: 480px) {
+  .about-intro {
+    font-size: 0.95rem;
+  }
+  
+  .sub-section-title {
+    font-size: 1.1rem;
+  }
+  
+  .achievement-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 14px;
+  }
+  
+  .achievement-icon-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .experience-card {
+    padding: 16px;
+  }
+  
+  .experience-header h4 {
+    font-size: 1rem;
+  }
+  
+  .experience-tasks li {
+    font-size: 0.9rem;
+  }
+  
+  .tech-stack-section {
+    padding: 16px 12px;
+  }
+  
+  .skill-card {
+    min-width: 55px;
+    padding: 6px 8px;
   }
 }

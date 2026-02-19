@@ -157,14 +157,37 @@
   font-size: 0.95rem;
 }
 
-/* Mobile responsiveness */
+/* Tablet responsiveness (768px - 1024px) */
+@media (max-width: 1024px) {
+  .contact-intro {
+    font-size: 1.05rem;
+  }
+  
+  .contact-main-grid {
+    max-width: 550px;
+  }
+}
+
+/* Mobile responsiveness (below 768px) */
 @media (max-width: 768px) {
+  .contact-section {
+    padding: 50px 20px;
+  }
+  
+  .contact-intro {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+  
   .contact-main-grid {
     gap: 30px;
+    max-width: 100%;
+    padding: 0 10px;
   }
   
   .contact-icons-row {
     gap: 16px;
+    flex-wrap: wrap;
   }
   
   .contact-icon-box {
@@ -179,13 +202,70 @@
   
   .quick-message-section h3 {
     font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+  
+  .quick-message-form {
+    gap: 14px;
   }
   
   .quick-message-form textarea {
-    min-height: 100px;
+    min-height: 120px;
+    padding: 14px;
+    font-size: 0.95rem;
   }
   
   .send-btn {
     width: 100%;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    padding: 24px 0;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices (below 480px) */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 40px 15px;
+  }
+  
+  .contact-intro {
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-icons-row {
+    gap: 12px;
+  }
+  
+  .contact-icon-box {
+    width: 56px;
+    height: 56px;
+    font-size: 1.3rem;
+  }
+  
+  .quick-message-section {
+    padding: 20px 16px;
+  }
+  
+  .quick-message-section h3 {
+    font-size: 1.1rem;
+  }
+  
+  .quick-message-form textarea {
+    min-height: 100px;
+    padding: 12px;
+  }
+  
+  .send-btn {
+    padding: 12px 20px;
   }
 }

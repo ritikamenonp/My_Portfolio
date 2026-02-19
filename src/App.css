@@ -218,12 +218,84 @@ html {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  section {
-    padding: 40px 15px;
+/* Tablet responsiveness (768px - 1024px) */
+@media (max-width: 1024px) {
+  main {
+    margin-top: 75px;
   }
   
+  section {
+    padding: 50px 20px;
+    max-width: 900px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile responsiveness (below 768px) */
+@media (max-width: 768px) {
   main {
-    margin-top: 70px;
+    margin-top: 65px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 16px;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 14px;
+  }
+  
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+}
+
+/* Extra small devices (below 480px) */
+@media (max-width: 480px) {
+  main {
+    margin-top: 60px;
+  }
+  
+  section {
+    padding: 30px 15px;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
   }
 }

@@ -235,37 +235,166 @@
   font-size: 0.9rem;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .home-content {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 30px;
-  }
-  
+/* Tablet responsiveness (768px - 1024px) */
+@media (max-width: 1024px) {
   .home-title {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
   
   .home-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   
   .home-description {
     font-size: 1rem;
   }
   
-  .home-buttons {
-    justify-content: center;
-    flex-wrap: wrap;
+  .home-actions {
+    gap: 10px;
+  }
+  
+  .home-action-item {
+    padding: 10px 16px;
   }
   
   .profile-placeholder {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* Mobile responsiveness (below 768px) */
+@media (max-width: 768px) {
+  .home-section {
+    min-height: 100%;
+    padding: 60px 20px 40px;
+  }
+  
+  .home-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+  }
+  
+  .home-title {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+  }
+  
+  .home-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+  }
+  
+  .home-description {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+  
+  .home-buttons {
+    justify-content: center;
+  }
+  
+  .btn-primary {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+  }
+  
+  .btn-download {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  /* Adjust home actions for mobile */
+  .home-actions {
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .home-action-item {
+    padding: 10px 14px;
+    flex: 1 1 calc(50% - 8px);
+    min-width: 150px;
+  }
+  
+  .action-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+  
+  .home-action-item span {
+    font-size: 0.85rem;
+  }
+  
+  /* Profile image adjustments */
+  .home-image {
+    order: -1; /* Show image first on mobile */
+  }
+  
+  .profile-placeholder {
+    width: 220px;
+    height: 220px;
   }
   
   .profile-icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+  
+  .social-links {
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .social-link {
+    width: 44px;
+    height: 44px;
+    font-size: 1.1rem;
+  }
+}
+
+/* Extra small devices (below 480px) */
+@media (max-width: 480px) {
+  .home-section {
+    padding: 40px 15px 30px;
+  }
+  
+  .home-title {
+    font-size: 1.8rem;
+  }
+  
+  .home-subtitle {
+    font-size: 1rem;
+  }
+  
+  .home-description {
+    font-size: 0.9rem;
+  }
+  
+  .home-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .btn-primary,
+  .btn-download {
+    width: 100%;
+    padding: 12px 20px;
+  }
+  
+  .home-action-item {
+    flex: 1 1 100%;
+    min-width: auto;
+  }
+  
+  .profile-placeholder {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .profile-icon {
+    font-size: 2rem;
   }
 }
