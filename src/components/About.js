@@ -59,7 +59,7 @@ const About = () => {
       company: "CIRCOR Flow Technologies",
       location: "Coimbatore, India",
       role: "Data/Business Analyst Intern",
-      period: "Dec 2024 – Present",
+      period: "Dec 2025 - Mar 2026",
       tasks: [
         "Developed interactive Power BI dashboards to track First Article Inspection (FAI) status, Supplier On-Time Delivery (SOTD), and DPPM metrics, using Power Query and DAX for data transformation and rolling 3-month trend analysis to support supplier performance monitoring.",
         "Automated shipping order template generation at PO release using Excel VBA and collaborated with sourcing teams to translate reporting requirements into structured KPI dashboards, improving visibility and operational efficiency."
