@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt, FaCode, FaMedkit, FaRocket, FaChartLine } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaCode, FaMedkit, FaRocket, FaChartLine, FaShieldAlt } from 'react-icons/fa';
 import './Projects.css';
 
 const Projects = () => {
@@ -53,6 +53,25 @@ const Projects = () => {
       icon: <FaMedkit />,
       github: "https://github.com/ritikamenonp/Oral_Lip_And_Tongue_Cancer_Prediction",
       
+    },
+    {
+      id: 4,
+      title: "CTI Intelligence Hub",
+  description: "An AI-driven cybersecurity intelligence platform that extracts threat intelligence from unstructured reports, detects anomalous 5G network traffic using machine learning, explains alerts with Explainable AI, and protects sensitive subscriber data through privacy-preserving techniques.",
+  technologies: ["Python","Streamlit","Scikit-learn","SHAP","STIX 2.1","Plotly","NumPy","Pandas","Faker","HMAC-SHA256"
+  ],
+  features: [
+    "Automated extraction of Indicators of Compromise (IoCs) such as IPs, CVEs, hashes, domains, and attack types from threat reports",
+    "Generation of structured Cyber Threat Intelligence in STIX 2.1 format for standardized threat sharing",
+    "Isolation Forest-based anomaly detection on synthetic 5G network telemetry data",
+    "SHAP-powered Explainable AI to provide feature-level explanations for detected anomalies",
+    "Privacy Shield module for IP masking, IMSI pseudonymization, and differential privacy-based noise injection",
+    "Interactive Streamlit dashboard with CTI Parsing, Threat Analytics, Explainability, and Privacy Shield modules",
+    "Synthetic 5G traffic generation with realistic DDoS, Port Scan, and Data Exfiltration attack simulations"
+  ],
+  category: "Cybersecurity & Machine Learning",
+  icon: <FaShieldAlt />,
+  github: "https://github.com/ritikamenonp/CTI-Intelligence"
     }
   ];
 
