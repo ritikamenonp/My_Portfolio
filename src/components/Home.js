@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className="home-title">
               Hello World! I'm <span className="highlight">Ritika Menon P</span>
             </h1>
-            <h2 className="home-subtitle">Aspiring CS Researcher</h2>
+            <h2 className="home-subtitle">Computer Science Postgraduate</h2>
             
             <div className="home-actions">
               <a 
